@@ -4,6 +4,7 @@ This notebook can be used to generate the benchmark comparing:
 - IFS HRES (baseline)
 - Zeus subnet mean prediction
 - Best-performing miner
+
 all of the above using live data pulled from Weights & Biases.
 
 ### What the notebook does
