@@ -4,7 +4,7 @@ This notebook can be used to generate the benchmark comparing:
 - IFS HRES (baseline)
 - Zeus subnet mean prediction
 - Best-performing miner
-using live data pulled from Weights & Biases.
+all of the above using live data pulled from Weights & Biases.
 
 ### What the notebook does
 - Loads all validator runs from W&B within the selected date range
@@ -13,21 +13,7 @@ using live data pulled from Weights & Biases.
 - Computes aggregate RMSE statistics
 - Generates the bar charts used in our published benchmark
 
-### How to run it
-1. Set your W&B API key:
-```
-export WANDB_API_KEY=your_key_here
-```
-
-2. Install dependencies:
-```
-pip install -r requirements.txt
-```
-
-3. Open and execute the notebook:
-```
-jupyter notebook notebooks/IFS_HRES_Benchmarking.ipynb
-```
+### Easy to run. Install dependencies, and execute the notebook!
 
 Running the notebook will generate one PDF chart per variable.
 
